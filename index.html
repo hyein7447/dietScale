@@ -3,32 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>적정 체중 구하는 계산기 만들기</title>
-    <style>
-        body {}
-        h1 {}
-        p {}
-        ul {}
-        ul li input {width: 500px; }
-        #result {
-            background-color: pink; padding: 10px 130px; width: 650px;
-            border: 0;
-        }
-        #result:hover {
-            background-color: hotpink; color: #fff; 
-        }
-    </style>
+    <title>적정 체중계</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
-    <h1>다이어트 체중계</h1>
-    <p>당신의 건강몸무게를 알아보세요!</p>
-    <ul>
-        <li>현재 키 : <input type="text" id="height">cm</li>
-        <li>현재 몸무게 : <input type="text" id="weight">kg</li>
-        <li>최종 목표 : <input type="text" id="goals"></li>
-    </ul>
-    <button type="button" id="result">결과보기</button>
-
+    <div class="content">
+        <header>
+            <h1>다이어트 체중계</h1>
+            <p>당신의 건강몸무게를 알아보세요!</p>
+        </header>
+        <main>
+            <ul>
+                <li>현재 키 : <input type="text" id="height">cm</li>
+                <li>현재 몸무게 : <input type="text" id="weight">kg</li>
+                <li>최종 목표 : <input type="text" id="goals"></li>
+            </ul>
+            <button type="button" id="result">결과보기</button>
+        </main>
+    </div>
     <script src="./script/index.js"></script>
 </body>
 </html>

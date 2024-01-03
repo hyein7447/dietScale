@@ -1,0 +1,31 @@
+body {display: flex; flex-flow: column nowrap; align-items: center; justify-content: center;
+text-align: center;}
+body .content {
+    border: 1px solid #DAC0A3; background-color: #F8F0E5;
+    width: 700px; height: 400px;
+}
+.content header {width: 100%; margin: 0 auto;} 
+.content header h1 {
+    font-size: 2rem; text-align: center; padding: 20px 0;
+}
+.content header p {text-align: center; padding-bottom: 30px;}
+.content main {
+    position: relative;
+}
+.content main ul {}
+.content main ul li {}
+.content main ul li input {width: 500px; padding: 3px 0;} /* 공통선택자 */
+.content main ul li #height {
+    width: 100px; margin-bottom: 10px;
+}
+.content main ul li #weight {
+    width: 100px; margin-bottom: 20px;
+}
+.content main ul li #goals {margin: 40px;}
+.content main #result {
+    background-color: #DAC0A3; width: 100px; height: 100px;
+    border-radius: 50%; border: 0; position: absolute; top: -30px; right: 100px;
+}
+.content main #result:hover {
+    background-color: #F8F0E5; color: #DAC0A3; border: 1px solid #DAC0A3; 
+}
